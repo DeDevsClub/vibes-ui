@@ -1,10 +1,10 @@
 {
-  "name": "registry-starter",
+  "name": "vibes-ui",
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "npm run registry:build && next dev --turbopack",
-    "build": "npm run registry:build && next build",
+    "dev": "pnpm run registry:build && next dev --turbopack",
+    "build": "pnpm run registry:build && next build",
     "start": "next start",
     "lint": "biome check",
     "lint:fix": "biome check --write",
